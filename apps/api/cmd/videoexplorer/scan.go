@@ -7,11 +7,11 @@ import (
 	"log/slog"
 	"time"
 
-	catalogapplication "github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/application"
-	catalogsqlite "github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/infrastructure/sqlite"
-	catalogshttp "github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/interfaces/http"
-	ingestionapplication "github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/application"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/config"
+	catalogapplication "github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/application"
+	catalogsqlite "github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/infrastructure/sqlite"
+	catalogshttp "github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/interfaces/http"
+	ingestionapplication "github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/application"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/config"
 )
 
 // scansWiring is the two scans of the library as the composition root builds them (RF-28).

@@ -7,7 +7,7 @@ import (
 	"testing"
 	"testing/fstest"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/web"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/web"
 )
 
 const indexHTML = "<!doctype html><title>app</title>"

@@ -8,9 +8,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/application"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/domain"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/infrastructure/sqlite/sqlcgen"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/application"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/infrastructure/sqlite/sqlcgen"
 )
 
 // LibraryRepository implements application.LibraryRepository. The registry is written by the

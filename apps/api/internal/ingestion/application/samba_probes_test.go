@@ -7,7 +7,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/application"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/application"
 )
 
 // probeEntry is one reading kept by the fake probes.

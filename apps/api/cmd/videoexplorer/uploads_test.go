@@ -10,8 +10,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/metadata/infrastructure/imagecache"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/config"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/metadata/infrastructure/imagecache"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/config"
 )
 
 // tusCreate sends the create request of the tus protocol, with the session cookie if given.

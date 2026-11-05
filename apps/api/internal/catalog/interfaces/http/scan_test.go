@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/application"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/domain"
-	catalogshttp "github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/interfaces/http"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/httpapi"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/application"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/domain"
+	catalogshttp "github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/interfaces/http"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/httpapi"
 )
 
 // fakeScans answers fixed states and counts the triggers.

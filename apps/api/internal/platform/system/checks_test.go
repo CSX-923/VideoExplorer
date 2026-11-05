@@ -11,8 +11,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/httpapi"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/system"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/httpapi"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/system"
 )
 
 func TestWritableDir(t *testing.T) {

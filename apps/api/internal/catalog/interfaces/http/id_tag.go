@@ -4,9 +4,9 @@ import (
 	"context"
 	"errors"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/application"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/domain"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/httpapi"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/application"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/httpapi"
 )
 
 // PlanTitleIDTag implements httpapi.StrictServerInterface (RF-45): the preview of putting the ID tag on a title or

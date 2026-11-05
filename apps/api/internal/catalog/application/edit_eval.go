@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/domain"
 )
 
 // editEval is what an assessment of an edit decided: the title it ends in, every file with its choice and its

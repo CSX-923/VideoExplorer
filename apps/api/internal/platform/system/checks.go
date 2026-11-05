@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/httpapi"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/httpapi"
 )
 
 // toolTimeout bounds one run of an external program (`7zz i`, `ffprobe -version`).

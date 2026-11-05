@@ -2,7 +2,7 @@
 
 [English](README.md) · **Estado: terminado — última versión v1.0.2**
 
-[![CI](https://github.com/CarlosSV923/VideoExplorer/actions/workflows/ci.yml/badge.svg)](https://github.com/CarlosSV923/VideoExplorer/actions/workflows/ci.yml)
+[![CI](https://github.com/CSX-923/VideoExplorer/actions/workflows/ci.yml/badge.svg)](https://github.com/CSX-923/VideoExplorer/actions/workflows/ci.yml)
 
 ![Subir archivos de ejemplo, asignar una película desde No asignados con una coincidencia de TMDB y abrir el título guardado](docs/screenshots/es/assign.gif)
 
@@ -25,7 +25,7 @@ Los requisitos detallados y el trabajo actual están en [`docs/spec.md`](docs/sp
 
 **Demo:** [video-explorer-sepia.vercel.app](https://video-explorer-sepia.vercel.app). Funciona sin backend; los cambios en memoria se pierden al recargar. Las imágenes de TMDB se cargan desde `image.tmdb.org`.
 
-**Arquitectura interactiva:** [carlossv923.github.io/VideoExplorer/es/](https://carlossv923.github.io/VideoExplorer/es/) — explora la arquitectura del sistema y el ciclo de vida de una subida.
+**Arquitectura interactiva:** [csx-923.github.io/VideoExplorer/es/](https://csx-923.github.io/VideoExplorer/es/) — explora la arquitectura del sistema y el ciclo de vida de una subida.
 
 ## Capturas
 
@@ -41,7 +41,7 @@ Las capturas y el GIF se generan desde la demo con `task screenshots`. Los póst
 
 ## Imagen de producción
 
-La imagen para TrueNAS es `ghcr.io/carlossv923/videoexplorer`. Al crear un tag de versión `v*`, se publican el tag semver correspondiente y `latest` para `linux/amd64`; los pull requests solo construyen la imagen. Para construirla localmente, ejecuta `task image`.
+La imagen para TrueNAS es `ghcr.io/csx-923/videoexplorer`. Al crear un tag de versión `v*`, se publican el tag semver correspondiente y `latest` para `linux/amd64`; los pull requests solo construyen la imagen. Para construirla localmente, ejecuta `task image`.
 
 La imagen incluye `ffprobe` de jellyfin-ffmpeg 8.1.3-1, bajo GPL-3.0. Su licencia y aviso están en `/usr/share/doc/videoexplorer/ffprobe/` dentro de la imagen. El [código fuente de la versión fijada](https://github.com/jellyfin/jellyfin-ffmpeg/tree/v8.1.3-1) está disponible en Jellyfin-FFmpeg. `ffprobe` se ejecuta como proceso independiente; VideoExplorer conserva su licencia MIT.
 
@@ -86,13 +86,13 @@ Consulta [`Taskfile.yml`](Taskfile.yml) para ver todas las tareas. Las herramien
 
 ## Arquitectura
 
-**Diagramas interactivos:** [carlossv923.github.io/VideoExplorer/es/](https://carlossv923.github.io/VideoExplorer/es/) — versiones explorables de los dos diagramas de abajo (arquitectura del sistema y ciclo de vida de una subida), generadas con [Archify](https://github.com/tt-a1i/archify) desde [`docs/architecture/`](docs/architecture/).
+**Diagramas interactivos:** [csx-923.github.io/VideoExplorer/es/](https://csx-923.github.io/VideoExplorer/es/) — versiones explorables de los dos diagramas de abajo (arquitectura del sistema y ciclo de vida de una subida), generadas con [Archify](https://github.com/tt-a1i/archify) desde [`docs/architecture/`](docs/architecture/).
 
-<p align="center"><a href="https://carlossv923.github.io/VideoExplorer/es/architecture.html"><img src="docs/architecture/images/es/architecture.svg" alt="Arquitectura de VideoExplorer: en TrueNAS SCALE, el binario Go con la app React embebida usa SQLite y una caché de imágenes en /data, organiza el dataset multimedia (/library: Movies, TV Shows, _unassigned) y ejecuta 7-Zip y ffprobe como procesos hijos; Jellyfin lee el dataset y recibe refrescos; el navegador usa HTTP, subidas tus y SSE; TMDB aporta los metadatos; las copias por SMB se detectan con inotify; la demo de Vercel ejecuta la misma app React con adaptadores en memoria" width="100%"></a></p>
+<p align="center"><a href="https://csx-923.github.io/VideoExplorer/es/architecture.html"><img src="docs/architecture/images/es/architecture.svg" alt="Arquitectura de VideoExplorer: en TrueNAS SCALE, el binario Go con la app React embebida usa SQLite y una caché de imágenes en /data, organiza el dataset multimedia (/library: Movies, TV Shows, _unassigned) y ejecuta 7-Zip y ffprobe como procesos hijos; Jellyfin lee el dataset y recibe refrescos; el navegador usa HTTP, subidas tus y SSE; TMDB aporta los metadatos; las copias por SMB se detectan con inotify; la demo de Vercel ejecuta la misma app React con adaptadores en memoria" width="100%"></a></p>
 
 Una subida es un trabajo que sigue esta máquina de estados (spec RF-10a); su resultado llega a **No asignados**, y nada entra en la biblioteca sin que el usuario lo confirme en **Asignar**:
 
-<p align="center"><a href="https://carlossv923.github.io/VideoExplorer/es/upload-lifecycle.html"><img src="docs/architecture/images/es/upload-lifecycle.svg" alt="Ciclo de vida de una subida: subiendo, subido, esperando partes, descomprimiendo, necesita contraseña, filtrando, y los resultados terminado (en No asignados), descartado, error con reintento y cancelado" width="100%"></a></p>
+<p align="center"><a href="https://csx-923.github.io/VideoExplorer/es/upload-lifecycle.html"><img src="docs/architecture/images/es/upload-lifecycle.svg" alt="Ciclo de vida de una subida: subiendo, subido, esperando partes, descomprimiendo, necesita contraseña, filtrando, y los resultados terminado (en No asignados), descartado, error con reintento y cancelado" width="100%"></a></p>
 
 Haz clic en un diagrama para abrir su versión interactiva.
 

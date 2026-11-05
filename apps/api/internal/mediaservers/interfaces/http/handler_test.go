@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/mediaservers/domain"
-	mediaservershttp "github.com/CarlosSV923/VideoExplorer/apps/api/internal/mediaservers/interfaces/http"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/httpapi"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/mediaservers/domain"
+	mediaservershttp "github.com/CSX-923/VideoExplorer/apps/api/internal/mediaservers/interfaces/http"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/httpapi"
 )
 
 type fakeStatus struct{ value domain.Status }

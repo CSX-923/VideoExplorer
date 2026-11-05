@@ -8,8 +8,8 @@ import (
 	"log/slog"
 	"net/http"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/application"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/httpapi"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/application"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/httpapi"
 )
 
 // Handler implements the assignment operations of httpapi.StrictServerInterface.

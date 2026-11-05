@@ -3,9 +3,9 @@ package main
 import (
 	"log/slog"
 
-	mediaserversapplication "github.com/CarlosSV923/VideoExplorer/apps/api/internal/mediaservers/application"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/mediaservers/infrastructure/jellyfin"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/config"
+	mediaserversapplication "github.com/CSX-923/VideoExplorer/apps/api/internal/mediaservers/application"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/mediaservers/infrastructure/jellyfin"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/config"
 )
 
 // newMediaServer wires the generic notifier port to the configured adapter.

@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"time"
 
-	identityapp "github.com/CarlosSV923/VideoExplorer/apps/api/internal/identity/application"
-	identityinfra "github.com/CarlosSV923/VideoExplorer/apps/api/internal/identity/infrastructure"
-	identityhttp "github.com/CarlosSV923/VideoExplorer/apps/api/internal/identity/interfaces/http"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/config"
+	identityapp "github.com/CSX-923/VideoExplorer/apps/api/internal/identity/application"
+	identityinfra "github.com/CSX-923/VideoExplorer/apps/api/internal/identity/infrastructure"
+	identityhttp "github.com/CSX-923/VideoExplorer/apps/api/internal/identity/interfaces/http"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/config"
 )
 
 // Login throttle (RF-60): 5 attempts at once, then one more every 12 seconds (5/min).

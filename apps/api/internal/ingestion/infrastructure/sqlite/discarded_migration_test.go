@@ -8,7 +8,7 @@ import (
 	"github.com/pressly/goose/v3"
 	_ "modernc.org/sqlite" // pure-Go driver, registered as "sqlite"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/db"
+	"github.com/CSX-923/VideoExplorer/apps/api/db"
 )
 
 // discardedMigration is the migration that adds the discarded state (RF-07, RF-10a).

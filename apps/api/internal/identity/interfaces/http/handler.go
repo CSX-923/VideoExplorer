@@ -8,10 +8,10 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/identity/application"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/identity/domain"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/httpapi"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/httpx"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/identity/application"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/identity/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/httpapi"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/httpx"
 )
 
 // CookieName is the session cookie (declared in api/openapi.yaml).

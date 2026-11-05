@@ -12,12 +12,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/application"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/domain"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/infrastructure/broker"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/infrastructure/sqlite"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/database"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/httpapi"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/application"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/infrastructure/broker"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/infrastructure/sqlite"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/database"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/httpapi"
 )
 
 // guard bounds every wait of the tests; a healthy run never gets near it.

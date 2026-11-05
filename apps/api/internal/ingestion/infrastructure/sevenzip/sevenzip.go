@@ -19,7 +19,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/application"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/application"
 )
 
 // Binary is the 7-Zip executable (installed by scripts/install-7zip.sh).

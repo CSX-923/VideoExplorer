@@ -4,9 +4,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/application"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/domain"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/infrastructure/libraryfs"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/application"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/infrastructure/libraryfs"
 )
 
 // oldIronPath is the Iron Man (2008) version that the registry holds before the assignment.

@@ -13,7 +13,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/domain"
 )
 
 // A library change (RNF-04, RF-25) is planned, journaled, performed and recorded:

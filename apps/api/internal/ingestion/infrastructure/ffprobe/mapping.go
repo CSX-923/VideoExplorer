@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/application"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/application"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/domain"
 )
 
 // output is the part of the `ffprobe -print_format json -show_format -show_streams`

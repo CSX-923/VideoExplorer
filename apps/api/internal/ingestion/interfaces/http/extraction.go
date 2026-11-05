@@ -5,9 +5,9 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/application"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/domain"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/httpapi"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/application"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/httpapi"
 )
 
 // SubmitJobPassword implements httpapi.StrictServerInterface (RF-04). The

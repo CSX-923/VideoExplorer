@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/domain"
 )
 
 func TestFileIdentityMatchesOnlyTheSameContentOfTheSameFile(t *testing.T) {

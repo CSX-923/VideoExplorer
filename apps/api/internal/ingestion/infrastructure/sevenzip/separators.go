@@ -9,8 +9,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/application"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/application"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/domain"
 )
 
 // windowsSeparator is the folder separator of Windows. Some tools write it into the names of a zip's entries:

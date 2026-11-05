@@ -4,15 +4,15 @@ import (
 	"log/slog"
 	"net/http"
 
-	catalogshttp "github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/interfaces/http"
-	identityhttp "github.com/CarlosSV923/VideoExplorer/apps/api/internal/identity/interfaces/http"
-	ingestionhttp "github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/interfaces/http"
-	mediaservershttp "github.com/CarlosSV923/VideoExplorer/apps/api/internal/mediaservers/interfaces/http"
-	metadatahttp "github.com/CarlosSV923/VideoExplorer/apps/api/internal/metadata/interfaces/http"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/httpapi"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/httpx"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/system"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/web"
+	catalogshttp "github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/interfaces/http"
+	identityhttp "github.com/CSX-923/VideoExplorer/apps/api/internal/identity/interfaces/http"
+	ingestionhttp "github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/interfaces/http"
+	mediaservershttp "github.com/CSX-923/VideoExplorer/apps/api/internal/mediaservers/interfaces/http"
+	metadatahttp "github.com/CSX-923/VideoExplorer/apps/api/internal/metadata/interfaces/http"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/httpapi"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/httpx"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/system"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/web"
 )
 
 // Aliases give each embedded handler its own field name (they are all "Handler").

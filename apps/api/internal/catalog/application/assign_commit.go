@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/domain"
 )
 
 // PlacedFile is a video that the commit placed: its file in the entry and its library path (spec §5).

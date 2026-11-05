@@ -7,13 +7,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/application"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/domain"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/infrastructure/libraryfs"
-	catalogsqlite "github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/infrastructure/sqlite"
-	catalogshttp "github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/interfaces/http"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/database"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/httpapi"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/application"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/infrastructure/libraryfs"
+	catalogsqlite "github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/infrastructure/sqlite"
+	catalogshttp "github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/interfaces/http"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/database"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/httpapi"
 )
 
 // movieTMDB answers one TMDB movie (Iron Man, 2008), and no search results.

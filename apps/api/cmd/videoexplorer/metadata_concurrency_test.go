@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	catalogdomain "github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/domain"
-	metadataapp "github.com/CarlosSV923/VideoExplorer/apps/api/internal/metadata/application"
-	metadatadomain "github.com/CarlosSV923/VideoExplorer/apps/api/internal/metadata/domain"
+	catalogdomain "github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/domain"
+	metadataapp "github.com/CSX-923/VideoExplorer/apps/api/internal/metadata/application"
+	metadatadomain "github.com/CSX-923/VideoExplorer/apps/api/internal/metadata/domain"
 )
 
 type concurrentSeasonProvider struct {

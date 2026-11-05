@@ -7,7 +7,7 @@
     "output": "docs/architecture/site/architecture.html",
     "quality_profile": "showcase",
     "repository": {
-      "url": "https://github.com/CarlosSV923/VideoExplorer.git",
+      "url": "https://github.com/CSX-923/VideoExplorer.git",
       "provider": "github",
       "link_mode": "web",
       "revision": "a5421ce13e90396629439e2ab0129a266014bbc6"

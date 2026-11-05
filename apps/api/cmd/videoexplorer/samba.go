@@ -6,12 +6,12 @@ import (
 	"errors"
 	"fmt"
 
-	catalogapplication "github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/application"
-	ingestionapplication "github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/application"
-	ingestiondomain "github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/domain"
-	ingestionsqlite "github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/infrastructure/sqlite"
-	ingestionhttp "github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/interfaces/http"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/httpapi"
+	catalogapplication "github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/application"
+	ingestionapplication "github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/application"
+	ingestiondomain "github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/domain"
+	ingestionsqlite "github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/infrastructure/sqlite"
+	ingestionhttp "github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/interfaces/http"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/httpapi"
 )
 
 // sambaOf gives the ingestion the copies of Samba in No asignados through its port (RF-27a): the

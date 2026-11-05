@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/metadata/application"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/metadata/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/metadata/application"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/metadata/domain"
 )
 
 var t0 = time.Date(2026, time.October, 10, 12, 0, 0, 0, time.UTC)

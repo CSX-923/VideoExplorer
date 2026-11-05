@@ -8,7 +8,7 @@ import (
 	"log/slog"
 	"sync"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/domain"
 )
 
 // CachedProber answers a probe from the store when the file still has the content that

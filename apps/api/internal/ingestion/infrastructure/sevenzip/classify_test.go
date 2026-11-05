@@ -6,7 +6,7 @@ import (
 	"os/exec"
 	"testing"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/application"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/application"
 )
 
 func TestClassifyMapsTheToolsFailuresToTheirReasons(t *testing.T) {

@@ -10,11 +10,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/domain"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/infrastructure/sqlite"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/metadata/infrastructure/imagecache"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/config"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/database"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/infrastructure/sqlite"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/metadata/infrastructure/imagecache"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/config"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/database"
 )
 
 // newTestIngestion wires the ingestion context over a fresh database and

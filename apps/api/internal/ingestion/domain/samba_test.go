@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/domain"
 )
 
 // copied builds a file that Samba copied into an entry, with its magic bytes already read.

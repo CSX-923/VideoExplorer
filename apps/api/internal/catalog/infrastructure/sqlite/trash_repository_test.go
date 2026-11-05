@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/domain"
-	catalogsqlite "github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/infrastructure/sqlite"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/database"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/domain"
+	catalogsqlite "github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/infrastructure/sqlite"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/database"
 )
 
 func TestTrashEntriesSurviveTheDatabase(t *testing.T) {

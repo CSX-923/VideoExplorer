@@ -3,7 +3,7 @@ package application
 import (
 	"context"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/domain"
 )
 
 // LibraryRepository reads the registry of the library: its titles and their files (RF-21,

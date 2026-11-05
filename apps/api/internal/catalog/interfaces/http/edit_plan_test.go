@@ -3,7 +3,7 @@ package http
 import (
 	"testing"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/application"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/application"
 )
 
 // TestTheFinalPathOfAnEditPlanIsOmittedWhileItWaits checks the contract of the edit preview (RF-24): a video or a

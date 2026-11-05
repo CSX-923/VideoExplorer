@@ -11,7 +11,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/mediaservers/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/mediaservers/domain"
 )
 
 const (

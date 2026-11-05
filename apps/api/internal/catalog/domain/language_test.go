@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/domain"
 )
 
 type languageVectors struct {

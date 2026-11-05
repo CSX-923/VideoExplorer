@@ -6,12 +6,12 @@ import (
 	"log/slog"
 	"time"
 
-	catalogapplication "github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/application"
-	catalogdomain "github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/domain"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/infrastructure/libraryfs"
-	catalogsqlite "github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/infrastructure/sqlite"
-	ingestionapplication "github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/application"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/config"
+	catalogapplication "github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/application"
+	catalogdomain "github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/infrastructure/libraryfs"
+	catalogsqlite "github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/infrastructure/sqlite"
+	ingestionapplication "github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/application"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/config"
 )
 
 // catalogWiring is the catalog context as the composition root builds it.

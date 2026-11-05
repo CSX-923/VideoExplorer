@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/mediaservers/application"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/mediaservers/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/mediaservers/application"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/mediaservers/domain"
 )
 
 type fakeBackend struct {

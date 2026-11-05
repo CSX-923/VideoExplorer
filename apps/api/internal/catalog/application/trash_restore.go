@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/domain"
 )
 
 // TrashRestoreDeps are the registry and paths required to restore entries from the trash.

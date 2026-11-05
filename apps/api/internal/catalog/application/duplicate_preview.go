@@ -3,7 +3,7 @@ package application
 import (
 	"slices"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/domain"
 )
 
 // duplicatePreview is what a preview shows of the duplicates of one place (RF-24, RF-25): each video that holds the

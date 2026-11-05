@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/domain"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/infrastructure/sqlite"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/infrastructure/sqlite"
 )
 
 // probed is what a probe of a 1080p video with two audio tracks and a forced subtitle reads.

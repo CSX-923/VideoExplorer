@@ -5,11 +5,11 @@ import (
 	"net/http"
 	"path/filepath"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/application"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/infrastructure/tus"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/config"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/diskspace"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/httpx"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/application"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/infrastructure/tus"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/config"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/diskspace"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/httpx"
 )
 
 // uploadsPath is where the browser starts and resumes uploads (RF-02). The

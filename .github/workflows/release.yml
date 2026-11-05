@@ -1,6 +1,6 @@
 name: Release image
 
-# A v* tag publishes ghcr.io/carlossv923/videoexplorer:<version> and :latest.
+# A v* tag publishes ghcr.io/csx-923/videoexplorer:<version> and :latest.
 # Pull requests and manual runs build the same image without publishing it.
 on:
   pull_request:
@@ -21,7 +21,7 @@ jobs:
       - id: meta
         uses: docker/metadata-action@v6
         with:
-          images: ghcr.io/carlossv923/videoexplorer
+          images: ghcr.io/csx-923/videoexplorer
           tags: |
             type=semver,pattern={{version}}
             type=raw,value=latest

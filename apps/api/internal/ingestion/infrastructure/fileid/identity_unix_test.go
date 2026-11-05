@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/infrastructure/fileid"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/infrastructure/fileid"
 )
 
 func TestIdentityOfAFileSurvivesARenameAndChangesWithItsContent(t *testing.T) {

@@ -7,8 +7,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/metadata/domain"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/metadata/infrastructure/tmdb"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/metadata/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/metadata/infrastructure/tmdb"
 )
 
 func TestImageSourceRequestsTheSizeOfEachKind(t *testing.T) {

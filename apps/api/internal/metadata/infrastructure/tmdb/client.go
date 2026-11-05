@@ -18,8 +18,8 @@ import (
 
 	"golang.org/x/time/rate"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/metadata/application"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/metadata/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/metadata/application"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/metadata/domain"
 )
 
 // Defaults of Config. TMDB allows roughly 40 requests per second; the client

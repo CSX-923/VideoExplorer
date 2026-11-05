@@ -4,7 +4,7 @@ import (
 	"context"
 	"strings"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/domain"
 )
 
 // decideGroups answers the duplicates of every group that moves one of its files (RF-24): a group whose place

@@ -5,8 +5,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/mediaservers/domain"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/httpapi"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/mediaservers/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/httpapi"
 )
 
 // StatusProvider is the small application port needed by the settings

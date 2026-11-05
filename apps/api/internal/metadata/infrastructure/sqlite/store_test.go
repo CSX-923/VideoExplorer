@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/metadata/application"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/metadata/infrastructure/sqlite"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/database"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/metadata/application"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/metadata/infrastructure/sqlite"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/database"
 )
 
 func TestResponseStoreRoundTrip(t *testing.T) {

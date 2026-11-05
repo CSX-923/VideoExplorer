@@ -6,8 +6,8 @@ import (
 	"testing"
 	"unicode/utf8"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/domain"
-	metadata "github.com/CarlosSV923/VideoExplorer/apps/api/internal/metadata/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/domain"
+	metadata "github.com/CSX-923/VideoExplorer/apps/api/internal/metadata/domain"
 )
 
 type pathVectors struct {

@@ -5,7 +5,7 @@ import (
 	"io"
 	"time"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/metadata/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/metadata/domain"
 )
 
 // ImageSource downloads images from TMDB's image CDN. It is not the API: it

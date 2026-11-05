@@ -6,12 +6,12 @@ import (
 	"log/slog"
 	"time"
 
-	catalogapplication "github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/application"
-	catalogdomain "github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/domain"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/infrastructure/libraryfs"
-	catalogsqlite "github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/infrastructure/sqlite"
-	ingestiondomain "github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/domain"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/config"
+	catalogapplication "github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/application"
+	catalogdomain "github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/infrastructure/libraryfs"
+	catalogsqlite "github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/infrastructure/sqlite"
+	ingestiondomain "github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/config"
 )
 
 // newLibraryImport wires the scan of Movies/ and TV Shows/ (RF-29) over the catalog's engine, registry and No

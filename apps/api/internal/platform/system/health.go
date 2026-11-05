@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/httpapi"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/httpapi"
 )
 
 // checkTimeout bounds one diagnostics round. A check that has not answered by

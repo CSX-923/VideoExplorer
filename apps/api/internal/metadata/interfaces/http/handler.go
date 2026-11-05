@@ -9,10 +9,10 @@ import (
 	"log/slog"
 	"net/http"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/metadata/application"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/metadata/domain"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/httpapi"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/httpx"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/metadata/application"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/metadata/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/httpapi"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/httpx"
 )
 
 // Handler implements the image operation of httpapi.StrictServerInterface.

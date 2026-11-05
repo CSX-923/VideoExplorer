@@ -10,7 +10,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/domain"
 )
 
 // The library scan (spec RF-28, RF-29) reads Movies/ and TV Shows/ as the disk holds them now, decides what

@@ -5,8 +5,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/database"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/database/sqlcgen"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/database"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/database/sqlcgen"
 )
 
 func TestOpenMigratesAndUsesWAL(t *testing.T) {

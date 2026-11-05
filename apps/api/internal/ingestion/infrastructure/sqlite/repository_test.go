@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/domain"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/infrastructure/sqlite"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/database"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/infrastructure/sqlite"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/database"
 )
 
 var created = time.Date(2026, time.October, 10, 12, 30, 15, 123456789, time.UTC)

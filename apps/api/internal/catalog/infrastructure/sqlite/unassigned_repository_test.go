@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/domain"
-	catalogsqlite "github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/infrastructure/sqlite"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/domain"
+	catalogsqlite "github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/infrastructure/sqlite"
 )
 
 func TestUnassignedEntriesSurviveTheDatabase(t *testing.T) {

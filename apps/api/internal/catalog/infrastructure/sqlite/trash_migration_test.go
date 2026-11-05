@@ -8,9 +8,9 @@ import (
 	"github.com/pressly/goose/v3"
 	_ "modernc.org/sqlite" // pure-Go driver, registered as "sqlite"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/db"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/domain"
-	catalogsqlite "github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/infrastructure/sqlite"
+	"github.com/CSX-923/VideoExplorer/apps/api/db"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/domain"
+	catalogsqlite "github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/infrastructure/sqlite"
 )
 
 // trashMigration is the migration that rebuilds the trash tables (RF-07, RF-30).

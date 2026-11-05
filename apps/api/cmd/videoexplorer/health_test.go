@@ -5,8 +5,8 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/config"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/httpapi"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/config"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/httpapi"
 )
 
 // The diagnostics read the folders of the configuration, in the order of RF-63.

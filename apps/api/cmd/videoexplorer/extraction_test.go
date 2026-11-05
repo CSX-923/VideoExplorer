@@ -7,11 +7,11 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/application"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/infrastructure/sevenzip"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/infrastructure/workspace"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/metadata/infrastructure/imagecache"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/config"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/application"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/infrastructure/sevenzip"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/infrastructure/workspace"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/metadata/infrastructure/imagecache"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/config"
 )
 
 // discardTrash is the trash of these tests: nothing is moved, nothing is recorded.

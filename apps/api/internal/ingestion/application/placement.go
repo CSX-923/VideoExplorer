@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/domain"
 )
 
 // placeBatch moves what a complete batch kept into No asignados (spec RF-08, RF-08a): one

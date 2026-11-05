@@ -3,8 +3,8 @@ package sqlite_test
 import (
 	"testing"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/domain"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/infrastructure/sqlite"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/infrastructure/sqlite"
 )
 
 func TestVolumeFieldsAndTheirClaimSurviveTheDatabase(t *testing.T) {

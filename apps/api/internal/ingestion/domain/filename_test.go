@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/domain"
 )
 
 // filenameVectors mirrors contracts/filename-cases.json (spec RF-20, RF-22, RF-23, §5).
