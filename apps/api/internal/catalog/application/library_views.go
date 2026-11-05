@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/domain"
 )
 
 // ErrTitleNotFound means there is no title of the library with that id (or it is only in the trash).

@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/domain"
 )
 
 // ErrSambaChanged means a copy of Samba changed, or left No asignados, before it was taken: the change

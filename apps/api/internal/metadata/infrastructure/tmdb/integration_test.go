@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/metadata/infrastructure/tmdb"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/metadata/infrastructure/tmdb"
 )
 
 // TestRealTMDB calls the real TMDB API. It runs only when a developer sets

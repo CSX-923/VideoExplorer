@@ -3,7 +3,7 @@ package domain_test
 import (
 	"testing"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/metadata/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/metadata/domain"
 )
 
 func TestPickLogo(t *testing.T) {

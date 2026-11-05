@@ -16,16 +16,16 @@ import (
 	"testing"
 	"time"
 
-	catalogapplication "github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/application"
-	catalogshttp "github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/interfaces/http"
-	ingestionapplication "github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/application"
-	ingestiondomain "github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/domain"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/infrastructure/sevenzip"
-	ingestionsqlite "github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/infrastructure/sqlite"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/infrastructure/workspace"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/config"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/database"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/httpapi"
+	catalogapplication "github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/application"
+	catalogshttp "github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/interfaces/http"
+	ingestionapplication "github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/application"
+	ingestiondomain "github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/infrastructure/sevenzip"
+	ingestionsqlite "github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/infrastructure/sqlite"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/infrastructure/workspace"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/config"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/database"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/httpapi"
 )
 
 // sambaGuard bounds every wait for the background work of an adoption. A healthy run never gets near it.

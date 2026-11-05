@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/application"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/application"
 )
 
 func TestHTTPResponseMappersDoNotReturnNullArrays(t *testing.T) {

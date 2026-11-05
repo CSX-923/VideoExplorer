@@ -20,8 +20,8 @@ import (
 	tusd "github.com/tus/tusd/v2/pkg/handler"
 	expslog "golang.org/x/exp/slog"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/application"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/application"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/domain"
 )
 
 // Keys of the Upload-Metadata that the browser sends with every upload.

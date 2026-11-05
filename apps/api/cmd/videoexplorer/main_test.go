@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	identityinfra "github.com/CarlosSV923/VideoExplorer/apps/api/internal/identity/infrastructure"
+	identityinfra "github.com/CSX-923/VideoExplorer/apps/api/internal/identity/infrastructure"
 )
 
 func TestEnsureUnassignedDirCreatesExpectedFolderAndAcceptsExistingDirectory(t *testing.T) {

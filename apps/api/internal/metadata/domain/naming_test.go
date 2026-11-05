@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/metadata/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/metadata/domain"
 )
 
 type titleVectors struct {

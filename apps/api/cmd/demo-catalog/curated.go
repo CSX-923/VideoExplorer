@@ -1,6 +1,6 @@
 package main
 
-import "github.com/CarlosSV923/VideoExplorer/apps/api/internal/metadata/domain"
+import "github.com/CSX-923/VideoExplorer/apps/api/internal/metadata/domain"
 
 // curatedTitle is one title picked by hand for the demo (spec RF-70, RF-71).
 // original is the title TMDB must return as its original title: a wrong id

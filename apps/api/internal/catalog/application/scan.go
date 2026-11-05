@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/domain"
 )
 
 // SectionReader is the reading of No asignados that the scan of _unassigned/ runs (Section.Sync).

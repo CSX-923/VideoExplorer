@@ -2,7 +2,7 @@
 
 [Español](README.es.md) · **Status: complete — latest release v1.0.2**
 
-[![CI](https://github.com/CarlosSV923/VideoExplorer/actions/workflows/ci.yml/badge.svg)](https://github.com/CarlosSV923/VideoExplorer/actions/workflows/ci.yml)
+[![CI](https://github.com/CSX-923/VideoExplorer/actions/workflows/ci.yml/badge.svg)](https://github.com/CSX-923/VideoExplorer/actions/workflows/ci.yml)
 
 ![Uploading sample files, assigning a movie from Unassigned with a TMDB match and opening the stored title](docs/screenshots/en/assign.gif)
 
@@ -25,7 +25,7 @@ The detailed requirements and current work are in [`docs/spec.md`](docs/spec.md)
 
 **Live demo:** [video-explorer-sepia.vercel.app](https://video-explorer-sepia.vercel.app). The demo runs without a backend; its in-memory changes reset when the page reloads. TMDB images load from `image.tmdb.org`.
 
-**Interactive architecture:** [carlossv923.github.io/VideoExplorer](https://carlossv923.github.io/VideoExplorer/) — explore the system architecture and the upload job lifecycle.
+**Interactive architecture:** [csx-923.github.io/VideoExplorer](https://csx-923.github.io/VideoExplorer/) — explore the system architecture and the upload job lifecycle.
 
 ## Screenshots
 
@@ -41,7 +41,7 @@ Screenshots and GIF are generated from the demo with `task screenshots`. Posters
 
 ## Production image
 
-The TrueNAS production image is `ghcr.io/carlossv923/videoexplorer`. A `v*` release tag publishes the matching semver tag and `latest` for `linux/amd64`; pull requests build the image without publishing it. Build it locally with `task image`.
+The TrueNAS production image is `ghcr.io/csx-923/videoexplorer`. A `v*` release tag publishes the matching semver tag and `latest` for `linux/amd64`; pull requests build the image without publishing it. Build it locally with `task image`.
 
 The image includes `ffprobe` from jellyfin-ffmpeg 8.1.3-1, licensed under GPL-3.0. Its license and notice are at `/usr/share/doc/videoexplorer/ffprobe/` in the image. The corresponding [pinned source code](https://github.com/jellyfin/jellyfin-ffmpeg/tree/v8.1.3-1) is available from Jellyfin-FFmpeg. `ffprobe` runs as a separate process; VideoExplorer remains MIT-licensed.
 
@@ -86,13 +86,13 @@ See [`Taskfile.yml`](Taskfile.yml) for all available tasks. Go tooling runs in D
 
 ## Architecture
 
-**Interactive diagrams:** [carlossv923.github.io/VideoExplorer](https://carlossv923.github.io/VideoExplorer/) — explorable versions of the two diagrams below (system architecture and upload job lifecycle), generated with [Archify](https://github.com/tt-a1i/archify) from [`docs/architecture/`](docs/architecture/).
+**Interactive diagrams:** [csx-923.github.io/VideoExplorer](https://csx-923.github.io/VideoExplorer/) — explorable versions of the two diagrams below (system architecture and upload job lifecycle), generated with [Archify](https://github.com/tt-a1i/archify) from [`docs/architecture/`](docs/architecture/).
 
-<p align="center"><a href="https://carlossv923.github.io/VideoExplorer/architecture.html"><img src="docs/architecture/images/en/architecture.svg" alt="VideoExplorer architecture: on TrueNAS SCALE, the Go binary with the embedded React app uses SQLite and an image cache in /data, organizes the media dataset (/library: Movies, TV Shows, _unassigned) and runs 7-Zip and ffprobe as child processes; Jellyfin reads the dataset and receives refreshes; the browser talks HTTP, tus uploads and SSE; TMDB provides metadata; SMB copies are detected with inotify; the Vercel demo runs the same React app with in-memory adapters" width="100%"></a></p>
+<p align="center"><a href="https://csx-923.github.io/VideoExplorer/architecture.html"><img src="docs/architecture/images/en/architecture.svg" alt="VideoExplorer architecture: on TrueNAS SCALE, the Go binary with the embedded React app uses SQLite and an image cache in /data, organizes the media dataset (/library: Movies, TV Shows, _unassigned) and runs 7-Zip and ffprobe as child processes; Jellyfin reads the dataset and receives refreshes; the browser talks HTTP, tus uploads and SSE; TMDB provides metadata; SMB copies are detected with inotify; the Vercel demo runs the same React app with in-memory adapters" width="100%"></a></p>
 
 An upload is a job that follows this state machine (spec RF-10a); its result lands in **Unassigned**, and nothing reaches the library until the user confirms it in **Assign**:
 
-<p align="center"><a href="https://carlossv923.github.io/VideoExplorer/upload-lifecycle.html"><img src="docs/architecture/images/en/upload-lifecycle.svg" alt="Upload job lifecycle: uploading, uploaded, waiting for parts, extracting, needs password, filtering, and the outcomes done (in Unassigned), discarded, failed with retry, and cancelled" width="100%"></a></p>
+<p align="center"><a href="https://csx-923.github.io/VideoExplorer/upload-lifecycle.html"><img src="docs/architecture/images/en/upload-lifecycle.svg" alt="Upload job lifecycle: uploading, uploaded, waiting for parts, extracting, needs password, filtering, and the outcomes done (in Unassigned), discarded, failed with retry, and cancelled" width="100%"></a></p>
 
 Click a diagram to open its interactive version.
 

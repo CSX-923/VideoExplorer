@@ -8,7 +8,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/httpx"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/httpx"
 )
 
 func TestWriteProblem(t *testing.T) {

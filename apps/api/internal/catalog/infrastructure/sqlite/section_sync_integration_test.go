@@ -8,7 +8,7 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/domain"
 )
 
 // fakeArrivals is the ingestion's taking of Samba copies, as the section sees it: its Adopt runs

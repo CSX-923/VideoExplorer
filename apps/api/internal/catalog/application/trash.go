@@ -8,7 +8,7 @@ import (
 	"log/slog"
 	"time"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/domain"
 )
 
 // TrashRepository reads the metadata of the trash. Its entries are written by the commit of

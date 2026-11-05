@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/identity/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/identity/domain"
 )
 
 func TestSessionActiveAt(t *testing.T) {

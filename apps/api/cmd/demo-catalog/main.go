@@ -22,7 +22,7 @@ import (
 
 	env "github.com/caarlos0/env/v11"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/metadata/infrastructure/tmdb"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/metadata/infrastructure/tmdb"
 )
 
 // buildTimeout bounds the whole run: about a hundred requests at the client's rate.

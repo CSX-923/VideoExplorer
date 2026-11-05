@@ -7,7 +7,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/domain"
 )
 
 // PartialHasher computes the partial hash of a file under the library (RF-24). The composition

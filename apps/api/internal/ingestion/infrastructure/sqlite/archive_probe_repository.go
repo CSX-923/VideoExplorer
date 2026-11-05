@@ -6,8 +6,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/application"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/infrastructure/sqlite/sqlcgen"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/application"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/infrastructure/sqlite/sqlcgen"
 )
 
 // ArchiveProbeRepository implements application.ArchiveProbes: whether a copy of Samba is an archive, kept

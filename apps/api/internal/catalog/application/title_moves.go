@@ -8,7 +8,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/domain"
 )
 
 // Moving and trashing parts of a title (spec RF-44): the title as a whole, one season, or one file with its

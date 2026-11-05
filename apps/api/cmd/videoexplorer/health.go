@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/config"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/httpapi"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/system"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/config"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/httpapi"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/system"
 )
 
 // newHealth wires the startup diagnostics of RF-63: the library and data

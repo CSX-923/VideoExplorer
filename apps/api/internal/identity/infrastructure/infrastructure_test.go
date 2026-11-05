@@ -10,8 +10,8 @@ import (
 
 	"golang.org/x/crypto/argon2"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/identity/domain"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/identity/infrastructure"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/identity/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/identity/infrastructure"
 )
 
 func TestArgon2idRoundTrip(t *testing.T) {

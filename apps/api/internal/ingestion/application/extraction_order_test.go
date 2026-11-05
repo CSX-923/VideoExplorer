@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/application"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/domain"
-	ingestionsqlite "github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/infrastructure/sqlite"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/application"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/domain"
+	ingestionsqlite "github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/infrastructure/sqlite"
 )
 
 // TestTheStateIsSavedBeforeTheOriginalGoesToTheTrash: the job is filtering when its original

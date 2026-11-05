@@ -9,7 +9,7 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/application"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/application"
 )
 
 // fixture returns a library root, with the app's folder inside it.

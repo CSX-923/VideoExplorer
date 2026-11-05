@@ -6,7 +6,7 @@ import (
 	"path"
 	"strconv"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/domain"
 )
 
 // ErrNotSamba means a change that takes files for the ingestion was asked of an entry that Samba did not

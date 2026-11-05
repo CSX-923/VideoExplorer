@@ -4,11 +4,11 @@ import (
 	"database/sql"
 	"log/slog"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/application"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/infrastructure/ffprobe"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/infrastructure/fileid"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/infrastructure/partialhash"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/infrastructure/sqlite"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/application"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/infrastructure/ffprobe"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/infrastructure/fileid"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/infrastructure/partialhash"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/infrastructure/sqlite"
 )
 
 // withProbing reads the kept videos in the background (RF-24, RF-44): ffprobe reads

@@ -9,16 +9,16 @@ import (
 	"testing"
 	"time"
 
-	catalogshttp "github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/interfaces/http"
-	identityinfra "github.com/CarlosSV923/VideoExplorer/apps/api/internal/identity/infrastructure"
-	identityhttp "github.com/CarlosSV923/VideoExplorer/apps/api/internal/identity/interfaces/http"
-	ingestionhttp "github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/interfaces/http"
-	mediaservershttp "github.com/CarlosSV923/VideoExplorer/apps/api/internal/mediaservers/interfaces/http"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/metadata/application"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/metadata/infrastructure/imagecache"
-	metadatahttp "github.com/CarlosSV923/VideoExplorer/apps/api/internal/metadata/interfaces/http"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/config"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/system"
+	catalogshttp "github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/interfaces/http"
+	identityinfra "github.com/CSX-923/VideoExplorer/apps/api/internal/identity/infrastructure"
+	identityhttp "github.com/CSX-923/VideoExplorer/apps/api/internal/identity/interfaces/http"
+	ingestionhttp "github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/interfaces/http"
+	mediaservershttp "github.com/CSX-923/VideoExplorer/apps/api/internal/mediaservers/interfaces/http"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/metadata/application"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/metadata/infrastructure/imagecache"
+	metadatahttp "github.com/CSX-923/VideoExplorer/apps/api/internal/metadata/interfaces/http"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/config"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/system"
 )
 
 const (

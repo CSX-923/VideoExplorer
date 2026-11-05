@@ -7,7 +7,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/domain"
 )
 
 // Choices of the form (RF-21 to RF-24). Every video and subtitle of the entry must be answered;

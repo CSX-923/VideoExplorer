@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/application"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/application"
 )
 
 // requireFFprobe skips without ffprobe in PATH, except where REQUIRE_FFPROBE is set

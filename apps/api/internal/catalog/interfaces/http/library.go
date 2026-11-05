@@ -16,11 +16,11 @@ import (
 	openapi_types "github.com/oapi-codegen/runtime/types"
 	"golang.org/x/text/unicode/norm"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/application"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/domain"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/httpapi"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/httpx"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/zipstream"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/application"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/httpapi"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/httpx"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/zipstream"
 )
 
 // LibraryHandler implements the reads of the title pages (RF-40, RF-43) of httpapi.StrictServerInterface.

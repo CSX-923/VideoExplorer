@@ -4,7 +4,7 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/domain"
 )
 
 // previewOccupant is a video that holds the place, with its version as the registry or the name gives it.

@@ -7,7 +7,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/domain"
 )
 
 // Commit performs an edit of a title as one change of the library (RNF-04, RF-44): the request is checked

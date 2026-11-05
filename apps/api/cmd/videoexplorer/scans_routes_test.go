@@ -7,11 +7,11 @@ import (
 	"testing"
 	"time"
 
-	catalogapplication "github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/application"
-	catalogdomain "github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/domain"
-	catalogshttp "github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/interfaces/http"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/metadata/infrastructure/imagecache"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/config"
+	catalogapplication "github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/application"
+	catalogdomain "github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/domain"
+	catalogshttp "github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/interfaces/http"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/metadata/infrastructure/imagecache"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/config"
 )
 
 // fixedScans answers the state of the scans of the library without running them.

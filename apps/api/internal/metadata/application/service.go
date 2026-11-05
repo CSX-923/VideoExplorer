@@ -7,7 +7,7 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/metadata/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/metadata/domain"
 )
 
 // Provider is the external metadata source (TMDB). Every call returns the text

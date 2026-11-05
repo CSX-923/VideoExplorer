@@ -1,4 +1,4 @@
-module github.com/CarlosSV923/VideoExplorer/apps/api
+module github.com/CSX-923/VideoExplorer/apps/api
 
 go 1.27.0
 

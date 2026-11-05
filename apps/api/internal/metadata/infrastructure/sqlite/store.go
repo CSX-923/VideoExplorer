@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/metadata/application"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/metadata/infrastructure/sqlite/sqlcgen"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/metadata/application"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/metadata/infrastructure/sqlite/sqlcgen"
 )
 
 // ResponseStore implements application.ResponseStore on the metadata_cache table.

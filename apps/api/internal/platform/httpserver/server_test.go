@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/httpserver"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/httpserver"
 )
 
 func TestNewKeepsTransferTimeoutsOpen(t *testing.T) {

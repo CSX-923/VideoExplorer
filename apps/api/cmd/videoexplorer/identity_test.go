@@ -4,8 +4,8 @@ import (
 	"strings"
 	"testing"
 
-	identityinfra "github.com/CarlosSV923/VideoExplorer/apps/api/internal/identity/infrastructure"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/config"
+	identityinfra "github.com/CSX-923/VideoExplorer/apps/api/internal/identity/infrastructure"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/config"
 )
 
 func TestPasswordVerifier(t *testing.T) {

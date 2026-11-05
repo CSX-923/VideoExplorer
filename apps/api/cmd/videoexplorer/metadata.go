@@ -7,11 +7,11 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/metadata/application"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/metadata/infrastructure/imagecache"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/metadata/infrastructure/sqlite"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/metadata/infrastructure/tmdb"
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/platform/config"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/metadata/application"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/metadata/infrastructure/imagecache"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/metadata/infrastructure/sqlite"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/metadata/infrastructure/tmdb"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/platform/config"
 )
 
 // metadataWiring is the metadata context as the composition root builds it.

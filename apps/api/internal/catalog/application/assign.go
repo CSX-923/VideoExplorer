@@ -15,7 +15,7 @@ import (
 
 	"golang.org/x/text/unicode/norm"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/catalog/domain"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/catalog/domain"
 )
 
 // DefaultSubtitleLanguage is the language a subtitle whose name does not give one is preselected

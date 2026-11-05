@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/CarlosSV923/VideoExplorer/apps/api/internal/ingestion/application"
+	"github.com/CSX-923/VideoExplorer/apps/api/internal/ingestion/application"
 )
 
 // windowsZip is a zip made by Compress-Archive of PowerShell 5.1 (RF-10c): its entries are
